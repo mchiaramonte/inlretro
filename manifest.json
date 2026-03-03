@@ -1,0 +1,17 @@
+{
+  "name": "INL Retro Dumper Programmer",
+  "short_name": "INL Retro",
+  "description": "Browser-based cartridge dumper for the INL Retro USB device",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
