@@ -1,5 +1,6 @@
 module.exports = {
   packagerConfig: {
+    icon: 'assets/icon/icon',
     asar: true,
     name: 'INL Retro Programmer Dumper',
     executableName: 'inlretro',
@@ -25,8 +26,13 @@ module.exports = {
       },
     },
     {
+      name: '@electron-forge/maker-dmg',
+      config: {},
+      platforms: ['darwin'],
+    },
+    {
       name: '@electron-forge/maker-zip',
-      platforms: ['darwin', 'linux'],
+      platforms: ['linux'],
     },
   ],
 };
